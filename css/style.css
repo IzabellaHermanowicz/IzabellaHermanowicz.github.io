@@ -1,0 +1,246 @@
+*{
+    list-style: none;
+}
+
+body{
+    border-color: #33E685;
+    border-style: solid;
+    border-width: 5px;
+    font-family: 'Teko', sans-serif;
+    background-color: #07040B;
+    font-size: 20px;
+    color: #33E685;
+}
+#navbar{
+    background-color: #33E685;
+    font-weight: 700;
+    word-spacing: 7px;
+}
+
+#navbar a{
+    color: #07040B;
+    letter-spacing: 2px;
+    text-decoration: none;
+    outline: none;
+}
+
+.left{
+    float: right;
+}
+
+section{
+     width: 100%;
+    height: 756px;
+}
+
+#smth{
+     position: absolute;
+     margin: auto;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+    color: #F92E14;
+    font-size: 40px;
+    width: 30%;
+    height: 40%;
+}
+
+#smth p{
+    text-align: center;
+}
+
+#smth span{
+    text-decoration: line-through;
+    font-weight: 400;
+}
+
+#intro{
+    background-image: url(../images/graph1.png), url(../images/graph2.png),url(../images/graph2.png), url(../images/graph1.png);
+    background-repeat: no-repeat;
+    background-position:left 20% top 20%, right 20% top 10%, left 20% bottom 10%, right 20% bottom 20%;
+}
+
+hr{
+    border: 2px solid #33E685;
+}
+
+#skills{
+    color: #0A67B0;
+    background-image: url(../images/gridleft.png), url(../images/gridright.png);
+    background-repeat: no-repeat;
+    background-position: left, right;
+}
+
+.skillz{
+    width: 500px;
+    margin: 6% auto;
+}
+
+.bar{
+    background: #07040B;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #034A92;
+}
+
+.bar span{
+    height: 2px;
+    float: left;
+    background-color: #034A92;
+}
+
+.html{
+    width: 25%;
+    animation: html 10s infinite;
+}
+.css{
+    width: 20%;
+    animation: css 10s infinite;
+}
+.javascript{
+    width: 15%;
+    animation: javascript 10s infinite;
+}
+.boot{
+    width: 15%;
+    animation: boot 10s infinite;
+}
+.jquery{
+    width: 10%;
+    animation: jquery 10s infinite;
+}
+.c{
+    width: 45%;
+    animation: c 10s infinite;
+}
+.linux{
+    width: 40%;
+    animation: linux 10s infinite;
+}
+
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 25%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 20%;
+    }
+}
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 15%;
+    }
+}
+@keyframes boot{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 15%;
+    }
+}
+@keyframes jquery{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 10%;
+    }
+}
+@keyframes c{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 45%;
+    }
+}
+@keyframes linux{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+
+#project{
+    text-align: center;
+    color: #F92E14;
+    background-color: #07040B;
+}
+
+.nothing{
+    border: 5px solid #F92E14;
+    border-top: none;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: #F92E14;
+    color: #07040B;
+    font-size: 40px;
+    padding-top: 3px;
+}
+
+
+.notfound{
+    color: #F92E14;
+    background-color: #07040B;
+    padding-bottom: 5px;  
+    padding-top: 3px;
+    font-size: 30px;
+}
+
+img{
+    margin-top: 3em;
+  width: 128px;
+  object-fit: cover;
+}
+
+#contact{
+    background-image: url(../images/secretleft.jpg), url(../images/secretright.jpg);
+    background-repeat: no-repeat;
+    background-position: left top 2em, right top 2em;
+    color: #0A67B0;
+    font-weight: 400;
+    text-align: center;
+}
+
+#contact{
+    font-size: 40px;
+}
+
+#contact p{
+      margin-top: 10%;
+}
+
+#contact button{
+    background-color: #07040B;
+    border: solid #034A92;
+    color: #034A92;
+    font-size: 40px;
+    font-family: 'Teko', sans-serif;
+    margin: 10px;
+    margin-bottom: 2em;
+}
+
+.clicking{
+    color: #0A67B0;
+    text-decoration: none;
+}
